@@ -1,0 +1,86 @@
+/ Please obey the format:
+/ #xxx - classify
+/ Title: URL
+/ And must end with 'EOF'.
+/ Have a nice day:)
+
+#SEARCH
+Google: https://www.google.com
+Baidu: https://www.baidu.com
+MoeGirl: https://zh.moegirl.org/Mainpage
+Yahoo! JAPAN: http://www.yahoo.co.jp
+Hpoi(Toy Wiki): http://www.hpoi.net/index
+2DFan: http://www.2dfan.com
+
+#NEWS
+BBC: http://www.bbc.com
+Sina News: http://news.sina.com.cn
+Tecent News: http://www.qq.com
+2chcn: http://2chcn.com
+Weiphone: http://www.feng.com
+
+#SNS
+Weibo: http://weibo.com
+Zhihu: https://www.zhihu.com
+Twitter: https://twitter.com
+Tieba: https://tieba.baidu.com
+Facebook: https://www.facebook.com
+Telegram: https://telegram.org
+
+#MEDIA
+Youtube: https://www.youtube.com
+Bilibili: http://www.bilibili.com
+Pixiv: http://www.pixiv.net
+Niconico: http://www.nicovideo.jp
+
+#TRADE
+Taobao: https://www.taobao.com
+JD: https://www.jd.com
+Alipay: https://www.alipay.com
+Paypal: https://www.paypal.com
+SH Gold Exchange: http://www.sge.com.cn/xqzx/ysxq
+IDinID: http://www.idinid.cn
+
+#TRAVEL
+Ctrip: http://www.ctrip.com
+12306: http://www.12306.cn
+Airbnb: https://airbnb.com
+Gaode Map: http://gaode.com
+Google Map: http://www.google.cn/maps
+OpenRailwayMap: http://www.openrailwaymap.org
+Seichimap: https://seichimap.jp
+Butaitanbou: http://legwork.g.hatena.ne.jp
+
+#TOOLS
+FLVCD: http://www.flvcd.com
+Savefrom.net: http://en.savefrom.net
+Hujiang.D: http://dict.hjenglish.com/en/w
+Google Translate: https://translate.google.cn
+WhatAnime: https://whatanime.ga
+TinEye: http://www.tineye.com
+Waifu2x: http://waifu2x.udp.jp
+Waifu2x-multi: http://waifu2x.me
+Crypt OL: http://tool.oschina.net/encrypt
+ChuangKit: https://www.chuangkit.com
+ChinaZ: http://ping.chinaz.com
+Compiler Explorer: https://gcc.godbolt.org
+Online Kits: https://tool.lu
+
+#STUDY
+CSDN: http://www.csdn.net
+GitHub: https://github.com
+FishC: http://www.fishc.com
+Japanese Free: http://www.learnjapanese.aiyori.org
+W3School: http://www.w3school.com.cn/index.html
+RUNOOB: http://www.runoob.com
+CNBlogs: https://www.cnblogs.com
+
+#RESOURCE
+APPINN: https://www.appinn.com
+BT Kitty: http://btkitty.org
+Yunpanxia: https://www.yunpanxia.com
+Xuexi111: http://www.xuexi111.com
+Softonic: https://en.softonic.com
+Shoujileyuan: https://soft.shouji.com.cn
+
+EOF
