@@ -2,6 +2,7 @@
 # Generate a fucking simple navigator (and usually the generated pages are not used as navigator)
 # ! Do not reconstruct the template file!!
 # v1.0.0: 2018.02.01
+# v1.0.1: 2023.07.18 - change to Python3.x; works well in NT; URL optimized
 
 import datetime
 
@@ -14,9 +15,9 @@ def timeNow():
 	return now.strftime("%Y.%m.%d")
 
 def getTemplateFromFile(fname):
-	with open(fname, 'r') as o:
+	with open(fname, 'rb') as o:
 		buf = o.read()
-	return buf
+	return buf.decode('utf-8')
 
 def multiReplace(origin, mapList):
 	# mapList: {wordOri: wordChange, ...}
@@ -26,7 +27,7 @@ def multiReplace(origin, mapList):
 
 def indexGen():
 	HTM_CLASSIFY = '<td width="%d%%" height="0" nowrap><div align="center"><a href="#%s">%s</a></div></td>'
-	HTM_ITEM = '	<td width="25%%" nowrap><a href="%s">%s</a></td>'
+	HTM_ITEM = '	<td width="25%%" nowrap><a href="%s" target="_blank">%s</a></td>'
 	HTM_VOID = '	<td width="25%" nowrap>&nbsp;</td>\n'
 	HTM_GROUP = '''
 <tr align="center" valign="middle" bgcolor="#BBBBBB">
@@ -41,17 +42,17 @@ def indexGen():
 	strGroup = ''
 	strIndex = ''
 
-	with open(NAME_SITES, 'r') as o:
+	with open(NAME_SITES, 'rb') as o:
 		count = 0
 		while True:
-			buf = o.readline().strip()
+			buf = o.readline().decode('utf-8').strip()
 
 			# Special situation
 			if buf == '' or buf[0] == '/':
 				continue
 			if buf == 'EOF':
 				if count != 0:
-					for i in xrange(4-count):
+					for i in range(4-count):
 						strGroup += HTM_VOID
 					count = 0
 					strGroup += '</tr>\n'
@@ -62,7 +63,7 @@ def indexGen():
 				classes.append(buf[1:])
 				# Make sure that only 4 items in a row
 				if count != 0:
-					for i in xrange(4-count):
+					for i in range(4-count):
 						strGroup += HTM_VOID
 					count = 0
 					strGroup += '</tr>\n'
@@ -89,8 +90,8 @@ def indexGen():
 	return whole
 
 def main():
-	with open(NAME_OUTPUT, 'w') as o:
-		o.write(indexGen())
+	with open(NAME_OUTPUT, 'wb') as o:
+		o.write(indexGen().encode('utf-8'))
 
 if __name__ == '__main__':
 	main()

@@ -6,7 +6,7 @@
 
 #SEARCH
 Google: https://www.google.com
-Baidu: https://www.baidu.com
+百度: https://www.baidu.com
 MoeGirl: https://zh.moegirl.org/Mainpage
 Yahoo! JAPAN: http://www.yahoo.co.jp
 Hpoi(Toy Wiki): http://www.hpoi.net/index
@@ -42,10 +42,10 @@ SH Gold Exchange: http://www.sge.com.cn/xqzx/ysxq
 IDinID: http://www.idinid.cn
 
 #TRAVEL
-Ctrip: http://www.ctrip.com
+携程: http://www.ctrip.com
 12306: http://www.12306.cn
 Airbnb: https://airbnb.com
-Gaode Map: http://gaode.com
+高德地图: http://gaode.com
 Google Map: http://www.google.cn/maps
 OpenRailwayMap: http://www.openrailwaymap.org
 Seichimap: https://seichimap.jp
@@ -54,7 +54,7 @@ Butaitanbou: http://legwork.g.hatena.ne.jp
 #TOOLS
 FLVCD: http://www.flvcd.com
 Savefrom.net: http://en.savefrom.net
-Hujiang.D: http://dict.hjenglish.com/en/w
+沪江小D: http://dict.hjenglish.com/en/w
 Google Translate: https://translate.google.cn
 WhatAnime: https://whatanime.ga
 TinEye: http://www.tineye.com
@@ -81,6 +81,6 @@ BT Kitty: http://btkitty.org
 Yunpanxia: https://www.yunpanxia.com
 Xuexi111: http://www.xuexi111.com
 Softonic: https://en.softonic.com
-Shoujileyuan: https://soft.shouji.com.cn
+手机乐园: https://soft.shouji.com.cn
 
 EOF
